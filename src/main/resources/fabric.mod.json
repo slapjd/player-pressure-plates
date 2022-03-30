@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "player-pressure-plates",
+  "version": "${version}",
+  "name": "Player Pressure Plates",
+  "description": "Player-only pressure plates.",
+  "authors": [
+    "slapjd"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/player-pressure-plates/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "slapjd.playerpressureplates.client.PlayerPressurePlatesClient"
+    ],
+    "main": [
+      "slapjd.playerpressureplates.PlayerPressurePlates"
+    ]
+  },
+  "mixins": [
+    "player-pressure-plates.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
