@@ -9,12 +9,9 @@
   ],
   "contact": {},
   "license": "GPL-3.0",
-  "icon": "assets/player-pressure-plates/icon.png",
+  "icon": "assets/playerpressureplates/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "slapjd.playerpressureplates.client.PlayerPressurePlatesClient"
-    ],
     "main": [
       "slapjd.playerpressureplates.PlayerPressurePlates"
     ]
