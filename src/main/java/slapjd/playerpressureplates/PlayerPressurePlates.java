@@ -14,6 +14,7 @@ import net.minecraft.util.registry.Registry;
 import slapjd.playerpressureplates.blocks.PlayerPressurePlateBlock;
 
 public class PlayerPressurePlates implements ModInitializer {
+    //Values chosen to mimic obsidian and pressure plates
     public static final PlayerPressurePlateBlock OBSIDIAN_PRESSURE_PLATE = new PlayerPressurePlateBlock(FabricBlockSettings.of(Material.STONE).noCollision().requiresTool().strength(16.6f, 1200.0f));
     @Override
     public void onInitialize() {
